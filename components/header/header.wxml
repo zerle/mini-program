@@ -1,0 +1,5 @@
+<!--components/header/header.wxml-->
+<view class="header">
+  <view class="header-logo">张垒</view>
+  <view class="header-txt">专注于前端开发</view>
+</view>

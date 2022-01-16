@@ -1,0 +1,16 @@
+/* pages/detail/detail.wxss */
+.detail-container {
+  margin-top: 120rpx;
+  padding: 10rpx;
+  background-color: #fff;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  height: calc(100vh);
+}
+.icon-top {
+  position: fixed;
+  bottom: 20rpx;
+  right: 40rpx;
+  font-size: 60rpx;
+  color: #1e90ff;
+}

@@ -1,0 +1,5 @@
+<!--pages/person/person.wxml-->
+<header></header>
+<view class="person-container">
+  暂无数据
+</view>

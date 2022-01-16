@@ -1,0 +1,6 @@
+<!--pages/detail/detail.wxml-->
+<header></header>
+<view class="detail-container">
+  <towxml nodes="{{detailList}}"/>
+</view>
+<view class="icon-top iconfont icon-fanhuidingbu" bindtap="goToPageTop"></view>

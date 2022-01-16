@@ -1,0 +1,26 @@
+<!--pages/home/home.wxml-->
+<header></header>
+<view class="searchInput">
+  <mp-searchbar class="mp-search" bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+</view>
+<scroll-view class="container" scroll-y  bindscrolltolower="addArticelList">
+  <view class="list-header">最新日志</view>
+  <view class="list" wx:for="{{articleList}}" wx:key="index">
+    <view class="list-title" bindtap="goToDetail" data-id="{{item._id}}">{{item.title}}</view>
+    <view class="list-icon">
+      <view class="icon-item">
+        <view class="iconfont icon-rili icon"></view>
+        <view>{{item.addTime}}</view>
+      </view>
+      <view class="icon-item">
+        <view class="iconfont icon-wenjianjia icon"></view>
+        <view>技术总结</view>
+      </view>
+      <view class="icon-item">
+        <view class="iconfont icon-caiyouduo_liulanliang icon"></view>
+        <view>{{item.view_count}}</view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+

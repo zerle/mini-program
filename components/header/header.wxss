@@ -1,0 +1,25 @@
+/* components/header/header.wxss */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #fff;
+  padding: 10rpx  20rpx;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+}
+.header-logo {
+  color: #1e90ff;
+}
+.header-txt {
+  position: relative;
+  bottom: 0;
+  left: 20rpx;
+  font-size: 24rpx;
+  color: #999;
+}

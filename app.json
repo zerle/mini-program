@@ -1,0 +1,36 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/person/person",
+        "pages/detail/detail"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#d43c33",
+        "navigationBarTitleText": "博客",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#333",
+        "selectedColor": "#d43c33",
+        "backgroundColor": "#ffffff",
+        "list": [
+        {
+            "pagePath": "pages/home/home",
+            "text": "主页",
+            "iconPath": "/static/images/tabs/tab-home.png",
+            "selectedIconPath": "/static/images/tabs/tab-home-current.png"
+        },
+        {
+            "pagePath": "pages/person/person",
+            "text": "我的",
+            "iconPath": "/static/images/tabs/tab-personal.png",
+            "selectedIconPath": "/static/images/tabs/tab-personal-current.png"
+        }]
+    },
+    "useExtendedLib": {
+        "weui": true
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

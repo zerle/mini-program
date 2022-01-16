@@ -1,0 +1,53 @@
+/* pages/home/home.wxss */
+.searchInput {
+  background: #fff;
+  margin-top: 120rpx;
+}
+.searchInput .result view {
+  font-size: 30rpx !important;
+}
+/* 列表内容 */
+.container {
+  margin-top: 20rpx;
+  padding: 10rpx;
+  background-color: #fff;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  height: calc(100vh);
+}
+.container .list-header {
+  font-size: 28rpx;
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.list {
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+.list-title {
+  color: #1e90ff;
+  font-size: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-icon {
+  display: flex;
+  padding: 20rpx 0;
+  height: 90rpx;
+  box-sizing: border-box;
+  line-height: 90rpx;
+}
+.list-icon .icon-item {
+  font-size: 28rpx;
+  width: 33%;
+  display: flex;
+}
+.icon {
+  margin-right: 20rpx;
+}
